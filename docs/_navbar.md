@@ -1,0 +1,3 @@
+- [ESP32-S3](/DShanESP32-S3/)
+- [视频教程](https://www.100ask.net)
+- [交流社区](https://forums.100ask.net/c/esp/49)
