@@ -161,7 +161,5 @@ MicroPython 在尽可能地与普通 Python 兼容，让用户可以轻松地将
 - 百问网交流社区： [https://forums.100ask.net/c/esp/49](https://forums.100ask.net/c/esp/49)
 
 
------------
-
 [^1]:https://www.espressif.com.cn/zh-hans/products/socs/esp32
-[^2]:https://docs.micropython.org
+[^2]:https://micropython.org
