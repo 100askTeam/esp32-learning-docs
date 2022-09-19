@@ -28,7 +28,7 @@ ESP32芯片有不同的型号，并且一直在推陈出新，以下是目前几
 
 WROOM模组再加上直流电源管理芯片和UART转USB芯片，就能组成一个最基本的ESP32开发板。
 
-也有的开发板不使用现成的模组，像我们在学习时使用的 DShanESP32-S3 开发板，就是自行整合ESP32芯片和储存单元。我们将在下一节的文章了解 DShanESP32-S3 开发板以及其开发套件。
+也有的开发板不使用现成的模组，像我们在学习时使用的 DshanMCU-Mio(澪) 开发板，就是自行整合ESP32芯片和储存单元。我们将在下一节的文章了解 DshanMCU-Mio(澪) 开发板以及其开发套件。
 
 
 ## ESP32-S3开发平台
@@ -39,9 +39,9 @@ WROOM模组再加上直流电源管理芯片和UART转USB芯片，就能组成�
 
 百问网 DShan MCU 系列资源、资料会保持活跃更新状态，如果你在学习时遇到任何相关的问题可以在我们的 [交流社区](https://forums.100ask.net/) 提问，会有专业的老师或者热心的同学一起帮你解决问题！
 
-### DshanESP32-S3开发板
+### DshanMCU-Mio(澪)开发板
 
-DshanESP32-S3开发板由百问网 DShan MCU 团队设计研发，有以下主要特点：
+DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下主要特点：
 
 - 有文档教程在：Arduino 开发环境中学习、开发
 - 有文档教程在：ESP-IDF 开发环境中学习、开发
@@ -55,12 +55,12 @@ DshanESP32-S3开发板由百问网 DShan MCU 团队设计研发，有以下主�
 - 支持百问网墨水屏和彩屏
 
 
-【图】 DshanESP32-S3
+【图】 DshanMCU-Mio(澪)
 
-【图】 DshanESP32-S3引脚图
+【图】 DshanMCU-Mio(澪)引脚图
 
 
-#### DshanESP32-S3功能参数表
+#### DshanMCU-Mio(澪)功能参数表
 | 功能 | 描述 |
 | ----------- | ----------- |
 | 主控        |  ESP32-S3     |
@@ -76,28 +76,28 @@ DshanESP32-S3开发板由百问网 DShan MCU 团队设计研发，有以下主�
 | 墨水屏      |  支持局刷、快刷，提供LVGL开发教程、示例    |
 | SPI彩屏     |  SPI接口，提供LVGL开发教程、示例     |
 
-### DshanESP32-S3开发套件
+### DshanMCU-Mio(澪)开发套件
 
-【图】 DshanESP32-S3引脚图（墨水屏）
+【图】 DshanMCU-Mio(澪)引脚图（墨水屏）
 
 | 配置 | 描述 |
 | ----------- | ----------- |
-| 核心板        |  DshanESP32-S3     |
+| 核心板        |  DshanMCU-Mio(澪)     |
 | 底板        |  100ASK_ESP32-S3_Base-Board    |
 | 显示屏        |  3.52寸SPI接口黑白两色墨水屏  |
 
-【图】 DshanESP32-S3引脚图（SPI彩屏）
+【图】 DshanMCU-Mio(澪)引脚图（SPI彩屏）
 
 | 配置 | 描述 |
 | ----------- | ----------- |
-| 核心板        |  DshanESP32-S3     |
+| 核心板        |  DshanMCU-Mio(澪)     |
 | 底板        |  100ASK_ESP32-S3_Base-Board    |
 | 显示屏        |  3.5寸SPI接口TFT彩屏  |
 
 
 ### 100ASK_ESP32-S3_Base-Board
 
-100ASK_ESP32-S3_Base-Board 是百问网 DShan MCU 团队针对 DshanESP32-S3 在多开发平台上学习开发而量身定制的底板。可以用于在 Arduino、ESP-IDF、Micropython平台上进行学习、开发，通过100ASK_ESP32-S3_Base-Board能让我们能学习更多的内容做更多地实验；同时强大的拓展性，能让使用者能做更多的DIY。下面是100ASK_ESP32-S3_Base-Board的功能说明：
+100ASK_ESP32-S3_Base-Board 是百问网 DShan MCU 团队针对 DshanMCU-Mio(澪) 在多开发平台上学习开发而量身定制的底板。可以用于在 Arduino、ESP-IDF、Micropython平台上进行学习、开发，通过100ASK_ESP32-S3_Base-Board能让我们能学习更多的内容做更多地实验；同时强大的拓展性，能让使用者能做更多的DIY。下面是100ASK_ESP32-S3_Base-Board的功能说明：
 
 【图】 100ASK_ESP32-S3_Base-Board功能说明
 
