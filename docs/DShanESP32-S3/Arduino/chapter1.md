@@ -134,11 +134,11 @@ Arduino 系列电路板的设计大多使用 Atmel AVR 单片机，并且Arduino
 
 #### 100ASK交流社区
 
-遇到问题时可以在我们的[交流社区](https://forums.100ask.net) 提问，会有专业的老师或者热心的同学一起帮你解决问题！
+遇到问题时可以在我们的[交流社区](https://forums.100ask.net/c/esp/49) 提问，会有专业的老师或者热心的同学一起帮你解决问题！
 
 除了提问之外也可以浏览大家分享的各种创意项目，当然你也可以在这里留下你的成果展示分享给大家！
 
-- 百问网交流社区： [https://forums.100ask.net](https://forums.100ask.net)
+- 百问网交流社区： [https://forums.100ask.net/c/esp/49](https://forums.100ask.net/c/esp/49)
 
 #### Arduino官方网站
 
