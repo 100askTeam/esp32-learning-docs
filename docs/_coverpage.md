@@ -11,4 +11,4 @@
 韦东山百问网专注于嵌入式(单片机、Linux、Android)教育
 
 [GitHub](https://github.com/100askTeam/Esp32-Docs)
-[Getting Started](#百问网ESP32学习中心)
+[开始学习](#百问网ESP32学习中心)
