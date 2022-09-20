@@ -184,14 +184,12 @@ C:\Users\smile\AppData\Local\Arduino15
 
 至此，我们的开发环境就完全搭建好了，接下来的章节中我们开始进行更多的实验、学习更多的内容吧！
 
-## 基于MacOS平台
-### 安装Arduino IDE
-### 快速熟悉Arduino IDE
-### 开发套件的使用
-
 ## 基于Linux平台(Ubuntu)
-### 安装Arduino IDE
-### 快速熟悉Arduino IDE
-### 开发套件的使用
+待续...
+
+## 基于MacOS平台
+待续...
+
+
 
 
