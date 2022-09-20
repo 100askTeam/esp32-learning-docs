@@ -24,9 +24,11 @@ ESP32芯片有不同的型号，并且一直在推陈出新，以下是目前几
 
 乐鑫公司有推出各种各样的 ESP32 模组，像下面这款 ESP32 WROOM-32 模组(后文简称 WROOM 模组)，是目前最常见的模组，常常被各种厂家在其基础上造出自己的开发板：
 
-【图】 esp32-wroom32模组
+![DshanMCU-Mio_Arduino_chapter1_images_001](_images/chapter1_images/DshanMCU-Mio_Arduino_chapter1_images_001.jpg)
 
 WROOM模组再加上直流电源管理芯片和UART转USB芯片，就能组成一个最基本的ESP32开发板。
+
+![DshanMCU-Mio_Arduino_chapter1_images_002](_images/chapter1_images/DshanMCU-Mio_Arduino_chapter1_images_002.jpg)
 
 也有的开发板不使用现成的模组，像我们在学习时使用的 DshanMCU-Mio(澪) 开发板，就是自行整合ESP32芯片和储存单元。我们将在下一节的文章了解 DshanMCU-Mio(澪) 开发板以及其开发套件。
 
@@ -55,7 +57,8 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 - 支持百问网墨水屏和彩屏
 
 
-【图】 DshanMCU-Mio(澪)
+![DshanMCU-Mio(澪)](https://forums.100ask.net/uploads/default/original/2X/a/ab36f2c93141cfbf2620d3fea4ef5978bf37ba9f.jpeg)
+
 
 【图】 DshanMCU-Mio(澪)引脚图
 
@@ -114,9 +117,9 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 
 ### 拓展配件
 
-3.52寸SPI接口黑白两色墨水屏
+3.52寸SPI接口无触摸黑白两色支持快刷局刷墨水屏
 
-3.5寸SPI接口TFT彩屏
+3.5寸SPI接口电阻触摸彩屏
 
 ## Arduino简介
 
