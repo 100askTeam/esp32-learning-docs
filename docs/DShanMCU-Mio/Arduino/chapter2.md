@@ -32,7 +32,7 @@ windows 10还有一个优点是，很多驱动都能自动联网安装，免去�
 - 首先，我们找到 `03_开发工具/arduino-ide_2.0.0_Windows_64bit.exe` 安装包所在的目录
 - 然后，双击 `arduino-ide_2.0.0_Windows_64bit.exe` 按照默认的选项进行安装
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_001](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_001.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_001](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_001.jpg)
 
 - 最后，安装完成你可以在桌面看到多出来了一个叫 `arduino` 的快捷方式的图标，以后我们双击改图片即可打开 `Arduino IDE`。
 
@@ -65,7 +65,7 @@ C:\Users\100ask\AppData\Local\Arduino15
 
 也就是注意留意看你的用户名是多少，我们按照下图这样操作可以确定当前使用的用户名是哪个：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_002](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_002.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_002](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_002.jpg)
 
 很明显，图中的用户名是 `smile` 路径是 `C:\Users\smile` 那么按照上面的说明，我们可以定位到自己的开发板管理目录：
 
@@ -75,16 +75,16 @@ C:\Users\smile\AppData\Local\Arduino15
 
 我们将修改后的路径复制下来，打开Windows系统的 `文件资源管理器` ，按照下图步骤进行操作：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_003](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_003.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_003](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_003.jpg)
 
 我们继续进入到 `packages` 目录，看到内容是下图这样的：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_004](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_004.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_004](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_004.jpg)
 
 
 我们接下来需要将我们的esp32开发板包(packages)添加进去即可，这个“包”在目录：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_005](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_005.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_005](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_005.jpg)
 
 如果你安装了解压缩工具，那么解压到指定目录非常简单：
 
@@ -95,12 +95,12 @@ C:\Users\smile\AppData\Local\Arduino15
 
 这是esp32目录中的内容，主要路径要和图中的一样：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_006](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_006.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_006](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_006.jpg)
 
 
 这样就大功告成，我们打开(重启)我们的 `Arduino IDE` 后，依次选择： `tools->Board' 就能看到多出来了 esp32 的选项：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_007](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_007.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_007](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_007.jpg)
 
 
 ### 开发套件的使用
@@ -111,20 +111,20 @@ C:\Users\smile\AppData\Local\Arduino15
 
 我们将 DshanMCU-Mio(澪) 上印有 UART 的 Type-C 接口，通过配套的 Type-C 线连接到我们的PC上的USB接口上，如下图所示：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_008](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_008.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_008](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_008.jpg)
 
 在 Windows 10 操作系统中，一般在你接上之后不久就会提示正在自动安装驱动。
 
 我们右键点击 **“我的电脑”** ，然后依次点击： 属性->设备管理。打开 **设备管理器** 界面之后能看到 `端口(COM和LPT)`选项， 并且其中有新接入的设备串口(COM)号，说明驱动没有问题，可以正常使用。
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_009](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_009.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_009](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_009.jpg)
 
 
 如果 **驱动异常**，那么就是你PC的系统无法自动安装驱动，这时候就需要我们 **手动安装驱动** ，方法如下：
 
 如果驱动异常，我们新接入的设备会显示一个 **黄色的感叹号**，我们选中这个设备项，然后点击鼠标右键，在弹出的菜单栏中选择 `更新驱动程序`：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_009](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_009.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_009](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_009.jpg)
 
 然后会弹出一个页面，我们选择 `“浏览计算机查找驱动”`：
 
@@ -148,39 +148,39 @@ C:\Users\smile\AppData\Local\Arduino15
 
 1. 选择在 `Tools->Board->ESP32 Arduino(inSketchbook)` 中选择 `ESP32S3 Dev Module`
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_011](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_011.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_011](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_011.jpg)
 
 2. 然后在 `Tools->Port` 中选择中选择你的板子的串口(COM)号：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_012](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_012.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_012](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_012.jpg)
 
 这样我们在 Arduino IDE中就能看到我们刚才的选择： 
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_013](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_013.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_013](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_013.jpg)
 
 3. 我们再进行一些细节配置，按照上面两步操作之后我们能看到菜单栏中 `Tools` 选项多出来了很多选项，大部分选项我们保持默认选择，我们只需要配置下面这几个即可：
 
 根据自己板子的配置选择对应的 **Flash Size**，DShan-ESP-S3 提供这三种配置的选购：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_014](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_014.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_014](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_014.jpg)
 
 
 `PSRAM` 默认是 *Disabled* 我们选择为 `OPI PSRAM`
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_015](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_015.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_015](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_015.jpg)
 
 
 最后，我们点击烧录按钮，等待编译并烧写完成：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_016](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_016.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_016](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_016.jpg)
 
 
 编译并烧写完成之后，我们点击右上角的 **串口监视器** 查看串口输出的内容：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_017](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_017.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_017](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_017.jpg)
 
 可以看到串口监视器每隔 1s 会输出一次信息：
 
-![DshanMCU-Mio(澪)_Arduino_chapter2_images_018](_images/chapter2_images/DshanMCU-Mio(澪)_Arduino_chapter2_images_018.jpg)
+![DshanMCU-Mio_Arduino_chapter2_images_018](_images/chapter2_images/DshanMCU-Mio_Arduino_chapter2_images_018.jpg)
 
 至此，我们的开发环境就完全搭建好了，接下来的章节中我们开始进行更多的实验、学习更多的内容吧！
 
