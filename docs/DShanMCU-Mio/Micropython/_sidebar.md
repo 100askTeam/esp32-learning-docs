@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
 
-- [第一章 Micropython和ESP32-S3简介](DShanESP32-S3/Micropython/chapter1.md)
+- [第一章 MicroPython和ESP32-S3简介](DShanMCU-Mio/Micropython/chapter1.md)
 
 
