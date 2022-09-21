@@ -25,11 +25,11 @@ ESP32芯片有不同的型号，并且一直在推陈出新，以下是目前几
 
 乐鑫公司有推出各种各样的 ESP32 模组，像下面这款 ESP32 WROOM-32 模组(后文简称 WROOM 模组)，是目前最常见的模组，常常被各种厂家在其基础上造出自己的开发板：
 
-![DshanMCU-Mio_esp-idf_chapter1_images_001](_images/chapter1_images/DshanMCU-Mio_esp-idf_chapter1_images_001.jpg)
+![DshanMCU-Mio_esp-idf_chapter1_images_001](_images/chapter1_images/DShanMCU-Mio_esp-idf_chapter1_images_001.jpg)
 
 WROOM模组再加上直流电源管理芯片和UART转USB芯片，就能组成一个最基本的ESP32开发板。
 
-![DshanMCU-Mio_esp-idf_chapter1_images_002](_images/chapter1_images/DshanMCU-Mio_esp-idf_chapter1_images_002.jpg)
+![DshanMCU-Mio_esp-idf_chapter1_images_002](_images/chapter1_images/DShanMCU-Mio_esp-idf_chapter1_images_002.jpg)
 
 也有的开发板不使用现成的模组，像我们在学习时使用的 DshanMCU-Mio(澪) 开发板，就是自行整合ESP32芯片和储存单元。我们将在下一节的文章了解 DshanMCU-Mio(澪) 开发板以及其开发套件。
 
