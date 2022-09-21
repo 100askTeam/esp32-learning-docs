@@ -157,8 +157,6 @@ Arduino 系列电路板的设计大多使用 Atmel AVR 单片机，并且Arduino
 
 
 
------------
-
 [^1]:https://www.espressif.com.cn/zh-hans/products/socs/esp32
 
 

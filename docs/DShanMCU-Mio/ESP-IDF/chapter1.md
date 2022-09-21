@@ -2,6 +2,7 @@
 
 ## ESP32简介
 ### 什么是ESP32
+
 ESP32是乐鑫信息科技（上海）股份有限公司(后文简称为乐鑫公司)研发，搭载了Wi-Fi和蓝牙的32位[系统单芯片](https://baike.baidu.com/item/%E7%B3%BB%E7%BB%9F%E5%8D%95%E8%8A%AF%E7%89%87/4497794) (System-on-a-chip，缩写SoC 或 SOC，其他译名有芯片系统、系统级芯片、片上系统)。ESP32的整体表现比较优秀[^1]：
 
 - 性能稳定。工作温度范围达到 –40°C 到 +125°C。集成的自校准电路实现了动态电压调整，可以消除外部电路的缺陷并适应外部条件的变化。
@@ -124,7 +125,7 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 
 ## ESP-IDF简介
 
-ESP-IDF 是乐鑫官方推出的物联网开发框架，支持 Windows、Linux 和 macOS 操作系统，适用于 ESP32、ESP32-S、ESP32-C 和 ESP32-H 系列 SoC。它基于 C/C++ 语言提供了一个自给自足的 SDK，方便用户在这些平台上开发通用应用程序。ESP-IDF 目前已服务支持数以亿计的物联网设备，并已开发构建了多种物联网产品，例如照明、消费电子大小家电、支付终端、工控等各类物联网设备。[^2]
+ESP-IDF(全称：Espressif IoT Development Framework) 是乐鑫官方推出的物联网开发框架，支持 Windows、Linux 和 macOS 操作系统，适用于 ESP32、ESP32-S、ESP32-C 和 ESP32-H 系列 SoC。它基于 C/C++ 语言提供了一个自给自足的 SDK，方便用户在这些平台上开发通用应用程序。ESP-IDF 目前已服务支持数以亿计的物联网设备，并已开发构建了多种物联网产品，例如照明、消费电子大小家电、支付终端、工控等各类物联网设备。[^2]
 
 乐鑫公司官方对ESP-IDF的总结介绍：[^2]
 
@@ -162,4 +163,4 @@ ESP-IDF 的官方仓库地址是： [https://github.com/espressif/esp-idf](https
 
 
 [^1]:https://www.espressif.com.cn/zh-hans/products/socs/esp32
-[^2]:https://www.espressif.com.cn/zh-hans/products/socs/esp32
+[^2]:https://www.espressif.com.cn/zh-hans/products/sdks/esp-idf
