@@ -6,6 +6,10 @@
 
 ## ESP32-S3
 
+DshanMCU-Mio(澪) (ESP32-S3主控芯片)开发板购买地址：
+- [淘宝](https://item.taobao.com/item.htm?id=683875901407)
+
+
 [DshanMCU-Mio(澪) 开发板展示视频](https://www.bilibili.com/video/BV1Va411g7aY)
 
 - [DshanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1.md)
