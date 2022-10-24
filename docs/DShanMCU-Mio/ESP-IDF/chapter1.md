@@ -58,7 +58,7 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 - 支持百问网墨水屏和彩屏
 
 
-![DshanMCU-Mio(澪)](https://forums.100ask.net/uploads/default/original/2X/a/ab36f2c93141cfbf2620d3fea4ef5978bf37ba9f.jpeg)
+![DshanMCU-Mio(澪)](https://forums.100ask.net/uploads/default/original/2X/9/969828ab24b370b662dcc8be7f226c220e9b80de.jpeg)
 
 
 【图】 DshanMCU-Mio(澪)引脚图
