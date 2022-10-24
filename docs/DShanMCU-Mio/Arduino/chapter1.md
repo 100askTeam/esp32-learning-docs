@@ -67,8 +67,8 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 | 功能 | 描述 |
 | ----------- | ----------- |
 | 主控        |  ESP32-S3     |
-| 内存        |  512KBytes + 2M-8MBytes PSARM(选配)     |
-| FLASH       |  8M-128MBytes (选配)   |
+| 内存        |  512KBytes + 2M-8MBytes PSARM(选配) 标配 512KB+8MB     |
+| FLASH       |  8M-128MBytes (选配) 标配 16MB  |
 | KEY         |  连接到引脚0     |
 | I2C         |  支持任意IO    |
 | UART        |  支持任意IO     |
@@ -78,7 +78,6 @@ DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下�
 | 3.3V        |  3.3V输出，最大电流 600mA     |
 | 墨水屏      |  支持局刷、快刷，提供LVGL开发教程、示例    |
 | SPI彩屏     |  SPI接口，提供LVGL开发教程、示例     |
-
 ### DshanMCU-Mio(澪)开发套件
 
 【图】 DshanMCU-Mio(澪)引脚图（墨水屏）
