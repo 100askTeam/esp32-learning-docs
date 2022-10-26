@@ -44,17 +44,17 @@ WROOM模组再加上直流电源管理芯片和UART转USB芯片，就能组成�
 
 ### DshanMCU-Mio(澪)开发板
 
-DshanMCU-Mio(澪)开发板由百问网 DShan MCU 团队设计研发，有以下主要特点：
+DshanMCU-Mio(澪) 开发板由百问网 DShan MCU 团队设计研发，有以下主要特点：
 
 - 有文档教程在：Arduino 平台学习、开发
 - 有文档教程在：ESP-IDF 平台学习、开发
-- 有文档教程在：Micropython 平台学习、开发
-- 存储资源拉满：高达支持8MB的PRAM和128MB的FLASH
+- 有文档教程在：MicroPython 平台学习、开发
+- 存储资源拉满：高达支持 8MB 的 PSRAM 和 128MB 的 FLASH
 - 自动下载电路
-- USB OTG接口
+- USB OTG 接口
 - 全IO引出
 - 按键和LED排列整齐，丝印清晰查看方便
-- 可用来学习AI(Micropython)
+- 可用来学习AI (MicroPython)
 - 支持百问网墨水屏和彩屏
 
 
@@ -66,6 +66,7 @@ DshanMCU-Mio(澪)引脚图：
 ![DshanMCU-Mio(澪)引脚图](https://forums.100ask.net/uploads/default/original/2X/2/2ab3fe2ca130437d72a8f9f1d021884e7d582c92.jpeg)
 
 #### DshanMCU-Mio(澪)功能参数表
+
 | 功能 | 描述 |
 | ----------- | ----------- |
 | 主控        |  ESP32-S3     |
@@ -102,17 +103,17 @@ DshanMCU-Mio(澪)引脚图：
 
 ### 100ASK_ESP32-S3_Base-Board
 
-100ASK_ESP32-S3_Base-Board 是百问网 DShan MCU 团队针对 DshanMCU-Mio(澪) 在多开发平台上学习开发而量身定制的底板。可以用于在 Arduino、ESP-IDF、Micropython平台上进行学习、开发，通过100ASK_ESP32-S3_Base-Board能让我们能学习更多的内容做更多地实验；同时强大的拓展性，能让使用者能做更多的DIY。下面是100ASK_ESP32-S3_Base-Board的功能说明：
+100ASK_ESP32-S3_Base-Board 是百问网 DShan MCU 团队针对 DshanMCU-Mio(澪) 在多开发平台上学习开发而量身定制的底板。可以用于在 Arduino、ESP-IDF、MicroPython平台上进行学习、开发，通过100ASK_ESP32-S3_Base-Board能让我们能学习更多的内容做更多地实验；同时强大的拓展性，能让使用者能做更多的DIY。下面是100ASK_ESP32-S3_Base-Board的功能说明：
 
 【图】 100ASK_ESP32-S3_Base-Board功能说明
 
 
 | 接口 | 描述 |
 | ----------- | ----------- |
-| 2.54mm排针 引出   |  ESP32-S3     |
-| 墨水屏接口        |  ESP32-S3     |
-| TFT屏接口         |  ESP32-S3     |
-| TFT屏触摸接口      |  ESP32-S3     |
+| 2.54mm排针 引出   |  可编程的GPIO引脚     |
+| 墨水屏接口        |  接墨水屏     |
+| TFT屏接口         |  接TFT屏幕     |
+| TFT屏触摸接口      |  接TFT屏幕触摸     |
 
 
 ### 配套模块
@@ -138,7 +139,9 @@ ESP-IDF(全称：Espressif IoT Development Framework) 是乐鑫官方推出的�
 
 ### ESP-IDF相关学习资料
 
-在我们学习的过程中，使用我们资料包中的资料已经足够你学习，如果你想深入学习可以根据这节的文档了解更多的内容。
+在我们学习的过程中，使用我们 [资料包](https://forums.100ask.net/t/topic/1285#h-1) 中的资料已经足够你学习，如果你想深入学习可以根据这节的文档了解更多的内容。
+
+DshanMCU-Mio(澪) 学习资料包下载地址：[https://forums.100ask.net/t/topic/1285#h-1]
 
 #### 100ASK交流社区
 
@@ -159,6 +162,7 @@ ESP-IDF 的官方仓库地址是： [https://github.com/espressif/esp-idf](https
 - ESP-IDF编程指南： [https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/index.html](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/index.html)
 
 - ESP-IDF版本说明：[https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/versions.html](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/versions.html)
+
 
 
 
