@@ -31,6 +31,7 @@
 
 
 ## 基于Windows平台
+
 Windows应该是大家常见的工作平台，即使是我们这些开发人员也是如此。所以我们也是推荐大家使用Windows平台作为首选的开发环境，并且推荐使用 Windows 10 系统。因为微软官方已经官宣停止对Windows 7 的更新和维护，所以我们最好不好使用windows 7以及比windows 7 更低的版本来搭建开发环境，否则可能会出现各种不必要甚至是无法得到解决的问题。
 
 windows 10还有一个优点是，很多驱动都能自动联网安装，免去了我们手动安装的麻烦，比如我们将 DshanMCU-Mio(澪) 第一次接入我们PC上的时候，如果使用的是 Windwos 10 系统，那么会有弹窗提示正在安装驱动，这是非常智能方便的。
@@ -116,9 +117,41 @@ ESP-IDF 插件安装完毕之后，还不能使用，这是一个基础的插件
 
 ![DShanMCU-Mio_esp-idf_chapter2_images_011](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_011.jpg)
 
-在弹出的新界面，如果我们之前已经安装了 ESP-IDF 工具安装器 ，那么这里会提示有三个选择，我们选择最后一个，也就是 "USE EXISTING SETUP"
+在弹出的新界面，如果我们之前已经安装了 ESP-IDF 工具安装器 ，那么这里会提示有三个选择，我们选择最后一个，也就是 `USE EXISTING SETUP`
 
 ![DShanMCU-Mio_esp-idf_chapter2_images_012](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012.jpg)
+
+**如果没有三个选择，也就是只有前面两个选择的时候怎么办？** 如果你有三个选项可用，那么下面这一小部分内容请略过。
+
+我们先看看我们的IDF的安装位置在哪里：
+默认安装位置在我们的 `c盘` 也就是系统盘 `C:\Espressif` ，进入到 `C:\Espressif\frameworks` 可以看到我们的 esp-idf-v4.4.2 目录，这个是我们当前使用的 [esp-idf](https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32s3/versions.html) 版本。
+
+![DShanMCU-Mio_esp-idf_chapter2_images_012-1](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-1.jpg)
+
+我们只需要记住或者找到这两个路径即可：
+
+```shell
+C:\Espressif
+C:\Espressif\frameworks\esp-idf-v4.4.2
+```
+
+有了这两个路径之后，我们在 vscode 中打开 **View->Command Palette** (中文界面是： 查看->命令面板) ，输入 `esp-idf`
+
+![DShanMCU-Mio_esp-idf_chapter2_images_012-2](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-2.jpg)
+
+然后找到 `ESP-IDF: Configure Paths` 点击进入会看到这个菜单，我们配置框出来的两个即可：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_012-3](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-3.jpg)
+
+先配置 `IDF-PATH` ，点击 `IDF-PATH` 然后在弹出的编辑框输入 esp-idf-v4.4.2 的安装路径，默认是 `C:\Espressif\frameworks\esp-idf-v4.4.2`
+
+![DShanMCU-Mio_esp-idf_chapter2_images_012-4](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-4.jpg)
+
+然后配置 `IDF-TOOLS-PATH` ，点击 `IDF-TOOLS-PATH` 然后在弹出的编辑框输入 Espressif 的安装路径，默认是  `C:\Espressif` 
+
+![DShanMCU-Mio_esp-idf_chapter2_images_012-5](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-5.jpg)
+
+然后我们将之前的 `IDF-IDF Setup` 页面关闭，也就是没有第三个选项的那个页面关闭，重新打开： **View->Command Palette** (中文界面是： 查看->命令面板)。在弹出的选项中点击选择： `Configure ESP-IDF Extension` ，等待页面加载出来就能看到有第三个选项了，我们选择最后一个，也就是 `USE EXISTING SETUP`。
 
 点击后进入新的界面，显示很多步骤已经完成，下拉到最后会看到还有一个在处理，耐心等待它处理完成：
 
@@ -127,6 +160,7 @@ ESP-IDF 插件安装完毕之后，还不能使用，这是一个基础的插件
 当上面的处理完成之后，会自动来到这个界面，说明已经成功了！
 
 ![DShanMCU-Mio_esp-idf_chapter2_images_014](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_014.jpg)
+
 
 
 ### 开发套件的使用
