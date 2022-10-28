@@ -6,7 +6,7 @@
 
 下面我们就来动手将我们的 DshanMCU-Mio(澪) + ESP-IDF 开发环境搭建起来。这其中我们提供了多种系统平台的搭建方法，你只需要选择你常用的一种平台即可，比如你的PC使用的是Windwos系统，那么只需要看 Windows 平台的部分即可。
 
-在搭建环境之前，我们需要先获取到学习资料包，下面我们先来看看 DshanMCU-Mio(澪) 怎么学习资料。
+在搭建环境之前，我们需要先获取到学习资料包，下面我们先来看看 DshanMCU-Mio(澪) 的学习资料。
 
 ## 获取学习资料
 
@@ -314,7 +314,7 @@ DshanMCU-ESP32虚拟机环境配置：
 - 安装适配了 vscode+esp-idf 插件
 - 安装适配了 platformIO + esp32
 - 安装适配了 Thonny（为micropython准备）
-- 安装适配了 Arduino v2.0.0（为arduino准备）
+- 安装适配了 Arduino v2.0.1（为arduino准备）
 
 
 虽然在linux平台上进行学习开发的门槛比 windows 高，但是按照我们的教程学习会带你逐步熟悉深入了解linux的各种特性和玩法，所以请先忽略那座横在你面前无形大山吧！
