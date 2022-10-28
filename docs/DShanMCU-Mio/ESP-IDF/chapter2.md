@@ -10,12 +10,12 @@
 
 ## 获取学习资料
 
-[DShanMCU-Mio(澪)](https://forums.100ask.net/t/topic/1033)学习资料 [百度云盘](http://wiki.100ask.org/BeginnerLearningRoute#.E7.99.BE.E5.BA.A6.E7.BD.91.E7.9B.98.E4.BD.BF.E7.94.A8.E6.95.99.E7.A8.8B) 下载
+[DShanMCU-Mio(澪)](https://forums.100ask.net/t/topic/1033)学习资料 [百度云盘](http://wiki.100ask.org/BeginnerLearningRoute#.E7.99.BE.E5.BA.A6.E7.BD.91.E7.9B.98.E4.BD.BF.E7.94.A8.E6.95.99.E7.A8.8B) 或 [阿里云盘](https://www.aliyundrive.com) 下载
 
-| 学习平台 | 链接 | 提取码|
+| 下学习平台 | 下载链接 | 提取码 |
 | :--- | :--- | --- |
-| Arduino | [https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root](https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root) | root|
-| ESP-IDF| [https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root ](https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root) | root|
+| Arduino | 百度云盘：[https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root](https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root)<br> 阿里云盘：[https://www.aliyundrive.com/s/rUaAUeA8H1m](https://www.aliyundrive.com/s/rUaAUeA8H1m) | 百度云盘：root <br> 阿里云盘：k61h |
+| ESP-IDF| 百度云盘：[https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root ](https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root) <br> 阿里云盘：[https://www.aliyundrive.com/s/V1SsoMJWzk6](https://www.aliyundrive.com/s/V1SsoMJWzk6) | 百度云盘：root <br> 阿里云盘：bt63 |
 | Micropython | TODO | TODO |
 
 > 获取最新的学习资料包，可以在上面的云盘下载来链接中获取，也可以关注我们的git仓库获取，同时非常欢迎提交你的 issues 或 Pull requests ！
@@ -152,6 +152,8 @@ C:\Espressif\frameworks\esp-idf-v4.4.2
 ![DShanMCU-Mio_esp-idf_chapter2_images_012-5](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_012-5.jpg)
 
 然后我们将之前的 `IDF-IDF Setup` 页面关闭，也就是没有第三个选项的那个页面关闭，重新打开： **View->Command Palette** (中文界面是： 查看->命令面板)。在弹出的选项中点击选择： `Configure ESP-IDF Extension` ，等待页面加载出来就能看到有第三个选项了，我们选择最后一个，也就是 `USE EXISTING SETUP`。
+
+> 如果你安装了 esp-idf 的多个版本，那么在切换版本的时候也需要想上面这样操作，并且最后需要重新执行 `USE EXISTING SETUP` 来告知更新我们的 vscode 插件使用新的 esp-idf 版本。
 
 点击后进入新的界面，显示很多步骤已经完成，下拉到最后会看到还有一个在处理，耐心等待它处理完成：
 
@@ -301,8 +303,81 @@ C:\Espressif\frameworks\esp-idf-v4.4.2
 可以看到，每隔一秒输出一次LED灯的状态信息，但是我们看不到开发板有灯闪烁。因为 DshanMCU-Mio(澪) 本身没有板载可编程的LED灯，而我们的 blink 示例中控制 LED 使用的引脚是 48 号引脚，我们可以将 PIN 48 上一个 LED 灯就能看到LED闪烁了。
 
 
-## 基于Linux平台(Ubuntu)
-待续...
+## 【推荐】基于Linux平台(Ubuntu)
+
+在linux平台上进行开发是我们推荐的方式，乐鑫官方也是推荐使用这种开发环境。
+
+DshanMCU-ESP32虚拟机环境配置：
+
+- ubuntu 22.04 版本
+- 安装了 esp-idfv4.4.2 (已为所有支持的目标芯片安装工具) `./install.sh all`
+- 安装适配了 vscode+esp-idf 插件
+- 安装适配了 platformIO + esp32
+- 安装适配了 Thonny（为micropython准备）
+- 安装适配了 Arduino v2.0.0（为arduino准备）
+
+
+虽然在linux平台上进行学习开发的门槛比 windows 高，但是按照我们的教程学习会带你逐步熟悉深入了解linux的各种特性和玩法，所以请先忽略那座横在你面前无形大山吧！
+
+linux平台的开发环境搭建非常简单，因为我们已经制作好了一个虚拟机镜像，解压就能直接用！
+
+所以我们的第一步是非常简单的，首先，我们先下载好我们的虚拟机镜像资料，下面请选择你喜欢的下载方式进行下载：
+
+| 下载平台 | 下载链接 | 提取码 |
+| :---    | :---     | :---: |
+| [百度云盘](https://pan.baidu.com/)       | [https://pan.baidu.com/s/1S1Toy5RAakTHvYtKZuvcqA?pwd=root](https://pan.baidu.com/s/1S1Toy5RAakTHvYtKZuvcqA?pwd=root)  | root |
+| [阿里云盘](https://www.aliyundrive.com/) | [https://www.aliyundrive.com/s/tNEMV2FgnRf](https://www.aliyundrive.com/s/tNEMV2FgnRf) | c0e6 |
+
+
+> 100ask_esp32_ubuntu_22.04_VM 解压后占据约 **35GB** 的磁盘空间，下载之前请确保磁盘容量充足！
+
+
+耐心等待下载完成，下载完成后进入资料目录：
+
+1. 如果你的电脑没有解压缩工具，那么需要解压并安装 **tools/BANDIZIP-SETUP-STD-X64.zip** 或者前往 bandizip 的官网获取更新版本：[https://www.bandisoft.com](https://www.bandisoft.com)
+
+2. 如果你的电脑没有安装 VMware-workstation 那么也需要解压并安装 **tools/VMware-workstation-full-16.2.3-19376536.zip**
+或者前往 VMware 的 [官网](https://www.vmware.com) 获取更新版本： [https://www.vmware.com](https://www.vmware.com)
+
+3. 接下来将 100ask_esp32_ubuntu_22.04_VM 目录中的所有压缩包全部下载好，一个也不能少，检查是否和下图一样！
+
+![DShanMCU-Mio_esp-idf_chapter2_images_037](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_037.jpg)
+
+然后，选中名为 100ask_esp32_ubuntu_22.04_VM.zip 的压缩包，右键进行解压，可以选择解压到当前目录，但是建议将其解压到可以专门存放虚拟机的目录，因为后续要经常使用并且解压出来之后约占 31GB 的磁盘空间！
+
+![DShanMCU-Mio_esp-idf_chapter2_images_038](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_038.jpg)
+
+> 解压时间大概需要 15~30 分钟可能需要更长的时间，不同的电脑性能结果会不一样。
+
+4. 解压完成之后，进入到解压出来的 `100ask_esp32_ubuntu_22.04_VM` 目录，如果前面安装了 `VMware-workstation` 那么将能看到 `100ask_esp32_ubuntu_22.04_VM.vmx` 是能通过你的电脑打开的，我们双击打开它：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_039](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_039.jpg)
+
+> 解压完成之后，并且确认 100ask_esp32_ubuntu_22.04_VM 可以正常使用，那么此时可以将之前的压缩包删除以节省磁盘空间。
+
+5. 之后我们将会进入到 VMware-workstation 的程序界面，并且展示我们刚刚选中打开的虚拟机，界面是这样的：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_040](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_040.jpg)
+
+我们先不要急着打开虚拟机，先配置一下我们的虚拟机：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_041](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_041.jpg)
+
+然后我们点击 `开启虚拟机` 打开我们的虚拟机：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_042](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_042.jpg)
+
+等待登录界面加载出来，点击用户 `Ubuntu`:
+
+![DShanMCU-Mio_esp-idf_chapter2_images_043](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_043.jpg)
+
+然后输入登录密码 `123456` 按回车即可登录：
+
+![DShanMCU-Mio_esp-idf_chapter2_images_044](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_044.jpg)
+
+最后我们会进入到 ubuntu 的桌面，以后使用起来你会发现很多交互操作其实和我们熟悉的 windows 是差不多的！
+
+![DShanMCU-Mio_esp-idf_chapter2_images_045](_images/chapter2_images/DShanMCU-Mio_esp-idf_chapter2_images_045.jpg)
 
 ## 基于MacOS平台
 待续...
