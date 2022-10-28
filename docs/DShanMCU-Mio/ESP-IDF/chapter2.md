@@ -326,7 +326,7 @@ linux平台的开发环境搭建非常简单，因为我们已经制作好了一
 | 下载平台 | 下载链接 | 提取码 |
 | :---    | :---     | :---: |
 | [百度云盘](https://pan.baidu.com/)       | [https://pan.baidu.com/s/1S1Toy5RAakTHvYtKZuvcqA?pwd=root](https://pan.baidu.com/s/1S1Toy5RAakTHvYtKZuvcqA?pwd=root)  | root |
-| [阿里云盘](https://www.aliyundrive.com/) | [https://www.aliyundrive.com/s/tNEMV2FgnRf](https://www.aliyundrive.com/s/tNEMV2FgnRf) | c0e6 |
+| [阿里云盘](https://www.aliyundrive.com/) | [https://www.aliyundrive.com/s/qdPb9cL364h](https://www.aliyundrive.com/s/qdPb9cL364h) | 96jp |
 
 
 > 100ask_esp32_ubuntu_22.04_VM 解压后占据约 **35GB** 的磁盘空间，下载之前请确保磁盘容量充足！
