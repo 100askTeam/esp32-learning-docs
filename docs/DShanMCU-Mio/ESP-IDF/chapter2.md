@@ -29,6 +29,7 @@
 | esp-idf-components | [https://github.com/100askTeam/esp-idf-components](https://github.com/100askTeam/esp-idf-components) | ESP-IDF 平台的学习资料包的组件作为[esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) 的子模块，也可以单独在自己的项目中使用！ |
 | esp-micropython-learn | TODO | MicroPython 平台学习资料包 |
 
+> 注意！我们存放学习资料的路径不要有路径，建议路径全都是英文+阿拉伯数字+英文标点符号(其中不要使用英文符号`(` 和 `)` )。 否则会出现一些意想不到的问题，这都是不必要可以提前避免的问题。
 
 ## 基于Windows平台
 
