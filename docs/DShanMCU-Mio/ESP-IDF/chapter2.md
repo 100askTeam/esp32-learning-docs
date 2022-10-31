@@ -329,7 +329,7 @@ linux平台的开发环境搭建非常简单，因为我们已经制作好了一
 | [阿里云盘](https://www.aliyundrive.com/) | [https://www.aliyundrive.com/s/qdPb9cL364h](https://www.aliyundrive.com/s/qdPb9cL364h) | 96jp |
 
 
-> 100ask_esp32_ubuntu_22.04_VM 解压后占据约 **35GB** 的磁盘空间，下载之前请确保磁盘容量充足！
+> 100ask_esp32_ubuntu_22.04_VM 解压后占据约 **26GB** 的磁盘空间，下载之前请确保磁盘容量充足！
 
 
 耐心等待下载完成，下载完成后进入资料目录：
