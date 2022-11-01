@@ -1,6 +1,10 @@
 <!-- docs/_sidebar.md -->
 
-- [第一章 Arduino和ESP32-S3简介](DShanMCU-Mio/Arduino/chapter1.md)
+- 第一章 ESP32-S3和Arduino简介
+  
+  - [ESP32简介](DShanMCU-Mio/Arduino/chapter1-1.md)
+  - [ESP32-S3开发平台](DShanMCU-Mio/Arduino/chapter1-2.md)
+  - [Arduino简介](DShanMCU-Mio/Arduino/chapter1-3.md)
 
 - [第二章 快速搭建开发环境](DShanMCU-Mio/Arduino/chapter2.md)
 
