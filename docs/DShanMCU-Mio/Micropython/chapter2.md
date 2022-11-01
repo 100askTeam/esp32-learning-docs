@@ -24,7 +24,7 @@
 
 | 仓库名称 | 源码地址 | 说明 |
 | :--- | :--- | --- |
-| esp-arduino-learn  | [https://github.com/100askTeam/esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) | Arduino 平台学习资料包 |
+| esp-arduino-learn  | [https://github.com/100askTeam/esp-arduino-learn](https://github.com/100askTeam/esp-arduino-learn) | Arduino 平台学习资料包 |
 | esp-idf-learn | [https://github.com/100askTeam/esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) | ESP-IDF 平台学习资料包 |
 | esp-idf-components | [https://github.com/100askTeam/esp-idf-components](https://github.com/100askTeam/esp-idf-components) | ESP-IDF 平台的学习资料包的组件作为[esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) 的子模块，也可以单独在自己的项目中使用！ |
 | esp-micropython-learn | TODO | MicroPython 平台学习资料包 |
