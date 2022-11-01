@@ -13,7 +13,10 @@
   - [基于Linux平台搭建开发环境](DShanMCU-Mio/Arduino/chapter2-3.md)
   - [基于MacOS平台搭建开发环境](DShanMCU-Mio/Arduino/chapter2-4.md)
 
-- [第三章 C/C++基础知识](DShanMCU-Mio/Arduino/chapter3.md)
+- 第三章 C/C++基础知识
+
+  - [C语言快速入门](DShanMCU-Mio/Arduino/chapter3-1.md)
+  - [C++语言快速入门](DShanMCU-Mio/Arduino/chapter3-2.md)
 
 - [第四章 基础实验]()
 

@@ -1,11 +1,8 @@
+# C语言快速入门
 
-# 第三章 C/C++编程语言基础知识
+我们假设同学们已经有了 C 基础。起码需要有一定的基础，之后可以跟着我们后续的内容慢慢补充巩固更多的知识点。
 
-我们假设同学们已经有了 C/C++ 基础。起码需要有一定的基础，之后可以跟着我们后续的内容慢慢补充巩固更多的知识点。
-
-更多的是要靠自行学习关于 C/C++ 更多的知识，最好是系统地进行学习，我们总结了一些资源，你可以参考下面这些资源进行系统的学习，祝你学习顺利！
-
-## C语言快速入门
+更多的是要靠自行学习关于 C 更多的知识，最好是系统地进行学习，我们总结了一些资源，你可以参考下面这些资源进行系统的学习，祝你学习顺利！
 
 - 【入门】语言基础入门视频教程：[https://www.100ask.net/detail/p_605db40fe4b0c9d9d5aa3c46/8](https://www.100ask.net/detail/p_605db40fe4b0c9d9d5aa3c46/8)
 - 【提高】通过两个口诀深入理解C语言：[https://www.100ask.net/detail/p_614ace88e4b0448bf65bdef6/6](https://www.100ask.net/detail/p_614ace88e4b0448bf65bdef6/6)
@@ -13,8 +10,5 @@
 - 【选修】形象化讲解 C语言进制转换：[https://www.bilibili.com/video/BV1764y1Y7Un](https://www.bilibili.com/video/BV1764y1Y7Un)
 - 【选修】直击C语言头文件使用痛点，一个视频教你C语言头文件的正确使用姿势：[https://www.bilibili.com/video/BV1uk4y1B7EQ](https://www.bilibili.com/video/BV1uk4y1B7EQ)
 
-## C++语言快速入门
 
-- 【入门】菜鸟C++语言教程：[https://www.runoob.com/cplusplus/cpp-tutorial.html](https://www.runoob.com/cplusplus/cpp-tutorial.html)
-- 【入门】韦东山C++快速入门视频教程：[https://www.100ask.net/detail/p_5e622784d946e_8PiZX2MR/8](https://www.100ask.net/detail/p_5e622784d946e_8PiZX2MR/8)
 
