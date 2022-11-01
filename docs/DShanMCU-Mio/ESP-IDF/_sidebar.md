@@ -4,7 +4,10 @@
 
 - [第二章 快速搭建开发环境](DShanMCU-Mio/ESP-IDF/chapter2.md)
 
-- [第三章 C/C++基础知识](DShanMCU-Mio/ESP-IDF/chapter3.md)
+- 第三章 C/C++基础知识
+
+  - [C语言快速入门](DShanMCU-Mio/ESP-IDF/chapter3-1.md)
+  - [C++语言快速入门](DShanMCU-Mio/ESP-IDF/chapter3-2.md)
 
 - 第四章 基础实验
 
