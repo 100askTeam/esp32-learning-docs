@@ -6,3 +6,5 @@
 
 - [第三章 C/C++基础知识](DShanMCU-Mio/ESP-IDF/chapter3.md)
 
+- [第四章 基础实验](DShanMCU-Mio/ESP-IDF/chapter4-1.md)
+
