@@ -1,36 +1,4 @@
-# 第二章 快速搭建开发环境
-
-在上一章节中，我们了解了什么是ESP32、什么是Arduino。我们已经对这两个方面有了一定的了解，万事俱备，只欠东风。在正式开始学习或者说编程之前，我们还需要将我们的开发环境搭建起来。
-
-搭建开发环境我们离不开两个东西： 硬件平台+软件平台。
-
-下面我们就来动手将我们的 DshanMCU-Mio(澪) + Arduino IDE 开发环境搭建起来。这其中我们提供了多种系统平台的搭建方法，你只需要选择你常用的一种平台即可，比如你的PC使用的是Windwos系统，那么只需要看 Windows 平台的部分即可。
-
-在搭建环境之前，我们需要先获取到学习资料包，下面我们先来看看 DshanMCU-Mio(澪) 怎么学习资料。
-
-## 获取学习资料
-
-[DShanMCU-Mio(澪)](https://forums.100ask.net/t/topic/1033)学习资料 [百度云盘](http://wiki.100ask.org/BeginnerLearningRoute#.E7.99.BE.E5.BA.A6.E7.BD.91.E7.9B.98.E4.BD.BF.E7.94.A8.E6.95.99.E7.A8.8B) 或 [阿里云盘](https://www.aliyundrive.com) 下载
-
-| 下学习平台 | 下载链接 | 提取码 |
-| :--- | :--- | --- |
-| Arduino | 百度云盘：[https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root](https://pan.baidu.com/s/1rpC0JZj6wZ2wea3NyPXTvQ?pwd=root)<br> 阿里云盘：[https://www.aliyundrive.com/s/rUaAUeA8H1m](https://www.aliyundrive.com/s/rUaAUeA8H1m) | 百度云盘：root <br> 阿里云盘：k61h |
-| ESP-IDF| 百度云盘：[https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root ](https://pan.baidu.com/s/1lNVxmixhmOdPFSmtCMUMbg?pwd=root) <br> 阿里云盘：[https://www.aliyundrive.com/s/V1SsoMJWzk6](https://www.aliyundrive.com/s/V1SsoMJWzk6) | 百度云盘：root <br> 阿里云盘：bt63 |
-| Micropython | TODO | TODO |
-
-> 获取最新的学习资料包，可以在上面的云盘下载来链接中获取，也可以关注我们的git仓库获取，同时非常欢迎提交你的 issues 或 Pull requests ！
-
-示例、组件、库源码地址：
-
-| 仓库名称 | 源码地址 | 说明 |
-| :--- | :--- | --- |
-| esp-arduino-learn  | [https://github.com/100askTeam/esp-arduino-learn](https://github.com/100askTeam/esp-arduino-learn) | Arduino 平台学习资料包 |
-| esp-idf-learn | [https://github.com/100askTeam/esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) | ESP-IDF 平台学习资料包 |
-| esp-idf-components | [https://github.com/100askTeam/esp-idf-components](https://github.com/100askTeam/esp-idf-components) | ESP-IDF 平台的学习资料包的组件作为[esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) 的子模块，也可以单独在自己的项目中使用！ |
-| esp-micropython-learn | TODO | MicroPython 平台学习资料包 |
-
-
-## 基于Windows平台
+# 基于Windows平台
 
 Windows应该是大家常见的工作平台，即使是我们这些开发人员也是如此。所以我们也是推荐大家使用Windows平台作为首选的开发环境，并且推荐使用 Windows 10 系统。因为微软官方已经官宣停止对Windows 7 的更新和维护，所以我们最好不好使用windows 7以及比windows 7 更低的版本来搭建开发环境，否则可能会出现各种不必要甚至是无法得到解决的问题。
 
@@ -38,8 +6,7 @@ windows 10还有一个优点是，很多驱动都能自动联网安装，免去�
 
 当然了，如果你确实智能使用其他版本的Windows系统，那么在出现问题的时候也是可以在我们的 [交流社区](https://forums.100ask.net/c/esp/49) 提问，会有专业的老师或者热心的同学一起帮你解决问题！
 
-
-### 安装Arduino IDE
+## 安装Arduino IDE
 
 安装Arduino IDE有两个方法：
 
@@ -50,18 +17,18 @@ windows 10还有一个优点是，很多驱动都能自动联网安装，免去�
 
 下面我们先分别了解这两种安装方法。
 
-#### 安装版 Arduino IDE
+### 安装版 Arduino IDE
 
 需要将 Arduino IDE 安装到我们的PC中，安装完成之后可以将安装包删除，相比绿色版麻烦很多。
 
 - 首先，我们找到 `03_开发工具/arduino-ide_2.0.0_Windows_64bit.exe` 安装包所在的目录
 - 然后，双击 `arduino-ide_2.0.0_Windows_64bit.exe` 按照默认的选项进行安装
 
-![DshanMCU-Mio_Arduino_chapter2_images_001](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_001.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_001](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_001.jpg)
 
 - 最后，安装完成你可以在桌面看到多出来了一个叫 `arduino` 的快捷方式的图标，以后我们双击改图片即可打开 `Arduino IDE`。
 
-#### 绿色版 Arduino IDE
+### 绿色版 Arduino IDE
 
 绿色版的意思是不需要将 Arduino IDE 安装到我们的PC中，解压之后进入压缩包目录双击 `Arduino IDE.exe` 即可打开 Arduino IDE 进行开发，相对于安装版来说方便很多，但是我们要保留我们的解压出来的文件。
 
@@ -71,7 +38,7 @@ windows 10还有一个优点是，很多驱动都能自动联网安装，免去�
 
 为了方便后面的使用，建议将 `arduino-ide_2.0.0_Windows_64bit.zip` 解压到一个你认为可以很好存放软件的目录，比如 `D:\SoftWare`。还有你可以像下图这样创建 `Arduino IDE.exe` 的快捷方式在桌面或者固定到任务栏或者导航栏，这样我们以后就可以很方便地打开 `Arduino IDE`。
 
-### 配置 ESP32-S3+Arduino 开发环境
+## 配置 ESP32-S3+Arduino 开发环境
 
 在我们能打开 `Arduino IDE` 并且进入主界面之后，我们就可以配置 ESP32-S3+Arduino 开发环境了。
 
@@ -90,7 +57,7 @@ C:\Users\100ask\AppData\Local\Arduino15
 
 也就是注意留意看你的用户名是多少，我们按照下图这样操作可以确定当前使用的用户名是哪个：
 
-![DshanMCU-Mio_Arduino_chapter2_images_002](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_002.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_002](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_002.jpg)
 
 很明显，图中的用户名是 `smile` 路径是 `C:\Users\smile` 那么按照上面的说明，我们可以定位到自己的开发板管理目录：
 
@@ -100,16 +67,16 @@ C:\Users\smile\AppData\Local\Arduino15
 
 我们将修改后的路径复制下来，打开Windows系统的 `文件资源管理器` ，按照下图步骤进行操作：
 
-![DshanMCU-Mio_Arduino_chapter2_images_003](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_003.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_003](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_003.jpg)
 
 我们继续进入到 `packages` 目录，看到内容是下图这样的：
 
-![DshanMCU-Mio_Arduino_chapter2_images_004](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_004.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_004](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_004.jpg)
 
 
 我们接下来需要将我们的esp32开发板包(packages)添加进去即可，这个“包”在目录：
 
-![DshanMCU-Mio_Arduino_chapter2_images_005](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_005.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_005](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_005.jpg)
 
 如果你安装了解压缩工具，那么解压到指定目录非常简单：
 
@@ -120,36 +87,36 @@ C:\Users\smile\AppData\Local\Arduino15
 
 这是esp32目录中的内容，主要路径要和图中的一样：
 
-![DshanMCU-Mio_Arduino_chapter2_images_006](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_006.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_006](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_006.jpg)
 
 
 这样就大功告成，我们打开(重启)我们的 `Arduino IDE` 后，依次选择： `tools->Board' 就能看到多出来了 esp32 的选项：
 
-![DshanMCU-Mio_Arduino_chapter2_images_007](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_007.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_007](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_007.jpg)
 
 
-### 开发套件的使用
+## 开发套件的使用
 
-#### 安装驱动
+### 安装驱动
 
 按照上面的操作，我们已经配置好开发环境，下面我们再来看看怎么在 `Arduino IDE` 中使用 DshanMCU-Mio(澪) 进行开发。
 
 我们将 DshanMCU-Mio(澪) 上印有 UART 的 Type-C 接口，通过配套的 Type-C 线连接到我们的PC上的USB接口上，如下图所示：
 
-![DshanMCU-Mio_Arduino_chapter2_images_008](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_008.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_008](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_008.jpg)
 
 在 Windows 10 操作系统中，一般在你接上之后不久就会提示正在自动安装驱动。
 
 我们右键点击 **“我的电脑”** ，然后依次点击： 属性->设备管理。打开 **设备管理器** 界面之后能看到 `端口(COM和LPT)`选项， 并且其中有新接入的设备串口(COM)号，说明驱动没有问题，可以正常使用。
 
-![DshanMCU-Mio_Arduino_chapter2_images_009](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_009.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_009](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_009.jpg)
 
 
 如果 **驱动异常**，那么就是你PC的系统无法自动安装驱动，这时候就需要我们 **手动安装驱动** ，方法如下：
 
 如果驱动异常，我们新接入的设备会显示一个 **黄色的感叹号**，我们选中这个设备项，然后点击鼠标右键，在弹出的菜单栏中选择 `更新驱动程序`：
 
-![DshanMCU-Mio_Arduino_chapter2_images_009](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_009.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_009](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_009.jpg)
 
 然后会弹出一个页面，我们选择 `“浏览计算机查找驱动”`：
 
@@ -161,59 +128,55 @@ C:\Users\smile\AppData\Local\Arduino15
 > 资料中的驱动是压缩包，我们要先解压这个压缩包再选择驱动，这里略过解压操作教程。
 
 
-#### 烧写程序
+### 烧写程序
 
 按照上面小节的操作，我们的驱动没有问题可以使用之后，我们就可以在 Arduino IDE 中和我们手上的 DShan-ESP-S3 进行交互了，我们先来烧写一个程序。
 
 首先，我们打开资料中的示例代码： 
 
-
+![DShanMCU-Mio_Arduino_chapter2-2_images_011](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_011.jpg)
 
 然后，按照下图在 Arduino IDE 进行一些配置：
 
 1. 选择在 `Tools->Board->ESP32 Arduino(inSketchbook)` 中选择 `ESP32S3 Dev Module`
 
-![DshanMCU-Mio_Arduino_chapter2_images_011](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_011.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_012](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_012.jpg)
 
 2. 然后在 `Tools->Port` 中选择中选择你的板子的串口(COM)号：
 
-![DshanMCU-Mio_Arduino_chapter2_images_012](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_012.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_013](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_013.jpg)
 
 这样我们在 Arduino IDE中就能看到我们刚才的选择： 
 
-![DshanMCU-Mio_Arduino_chapter2_images_013](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_013.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_014](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_014.jpg)
 
 3. 我们再进行一些细节配置，按照上面两步操作之后我们能看到菜单栏中 `Tools` 选项多出来了很多选项，大部分选项我们保持默认选择，我们只需要配置下面这几个即可：
 
 根据自己板子的配置选择对应的 **Flash Size**，DShan-ESP-S3 提供这三种配置的选购：
 
-![DshanMCU-Mio_Arduino_chapter2_images_014](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_014.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_015](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_015.jpg)
 
 
 `PSRAM` 默认是 *Disabled* 我们选择为 `OPI PSRAM`
-![DshanMCU-Mio_Arduino_chapter2_images_015](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_015.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_016](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_016.jpg)
 
 
 最后，我们点击烧录按钮，等待编译并烧写完成：
 
-![DshanMCU-Mio_Arduino_chapter2_images_016](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_016.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_017](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_017.jpg)
 
 
 编译并烧写完成之后，我们点击右上角的 **串口监视器** 查看串口输出的内容：
 
-![DshanMCU-Mio_Arduino_chapter2_images_017](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_017.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_018](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_018.jpg)
 
 可以看到串口监视器每隔 1s 会输出一次信息：
 
-![DshanMCU-Mio_Arduino_chapter2_images_018](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2_images_018.jpg)
+![DShanMCU-Mio_Arduino_chapter2-2_images_019](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_019.jpg)
 
 至此，我们的开发环境就完全搭建好了，接下来的章节中我们开始进行更多的实验、学习更多的内容吧！
 
-## 基于Linux平台(Ubuntu)
-待续...
 
-## 基于MacOS平台
-待续...
 
 
 

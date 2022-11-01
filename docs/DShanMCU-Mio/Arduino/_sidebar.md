@@ -6,7 +6,12 @@
   - [ESP32-S3开发平台](DShanMCU-Mio/Arduino/chapter1-2.md)
   - [Arduino简介](DShanMCU-Mio/Arduino/chapter1-3.md)
 
-- [第二章 快速搭建开发环境](DShanMCU-Mio/Arduino/chapter2.md)
+- 第二章 快速搭建开发环境
+
+  - [获取学习资料](DShanMCU-Mio/Arduino/chapter2-1.md)
+  - [基于Windows平台搭建开发环境](DShanMCU-Mio/Arduino/chapter2-2.md)
+  - [基于Linux平台搭建开发环境](DShanMCU-Mio/Arduino/chapter2-3.md)
+  - [基于MacOS平台搭建开发环境](DShanMCU-Mio/Arduino/chapter2-4.md)
 
 - [第三章 C/C++基础知识](DShanMCU-Mio/Arduino/chapter3.md)
 
