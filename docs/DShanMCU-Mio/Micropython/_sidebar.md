@@ -14,6 +14,15 @@
   - [基于Linux平台搭建开发环境](DShanMCU-Mio/Micropython/chapter2-4.md)
   - [基于MacOS平台搭建开发环境](DShanMCU-Mio/Micropython/chapter2-5.md)
 
-- [第二章 快速搭建开发环境](DShanMCU-Mio/Micropython/chapter2-1.md)
+- 第三章 MicroPython基础知识
 
-- [第三章 MicroPython基础知识](DShanMCU-Mio/Micropython/chapter3.md)
+  - [前言](DShanMCU-Mio/Micropython/chapter3-1.md)
+  - [注释](DShanMCU-Mio/Micropython/chapter3-2.md)
+  - [缩进](DShanMCU-Mio/Micropython/chapter3-3.md)
+  - [打印](DShanMCU-Mio/Micropython/chapter3-4.md)
+  - [运算符](DShanMCU-Mio/Micropython/chapter3-5.md)
+  - [控制流](DShanMCU-Mio/Micropython/chapter3-6.md)
+  - [函数](DShanMCU-Mio/Micropython/chapter3-7.md)
+  - [模块](DShanMCU-Mio/Micropython/chapter3-8.md)
+  - [文件操作](DShanMCU-Mio/Micropython/chapter3-9.md)
+  - [异常处理](DShanMCU-Mio/Micropython/chapter3-10.md)
