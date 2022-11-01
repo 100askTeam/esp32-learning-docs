@@ -3,6 +3,6 @@
 
 # DShanESP32-S3教程文档
 
-- [DshanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1.md)
-- [DshanMCU-Mio(澪) + Micropython 开发教程文档](DShanMCU-Mio/Micropython/chapter1.md)
-- [DshanMCU-Mio(澪) + ESP-IDF 开发教程文档](DShanMCU-Mio/ESP-IDF/chapter1.md)
+- [DshanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1-1.md)
+- [DshanMCU-Mio(澪) + Micropython 开发教程文档](DShanMCU-Mio/Micropython/chapter1-1.md)
+- [DshanMCU-Mio(澪) + ESP-IDF 开发教程文档](DShanMCU-Mio/ESP-IDF/chapter1-1.md)

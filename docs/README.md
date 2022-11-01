@@ -15,8 +15,8 @@
 
 [DShanMCU-Mio(澪) 开发板展示视频](https://www.bilibili.com/video/BV1Va411g7aY)
 
-- [DShanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1.md)
-- [DShanMCU-Mio(澪) + ESP-IDF 开发教程文档](DShanMCU-Mio/ESP-IDF/chapter1.md)
-- [DShanMCU-Mio(澪) + Micropython 开发教程文档](DShanMCU-Mio/Micropython/chapter1.md)
+- [DShanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1-1.md)
+- [DShanMCU-Mio(澪) + ESP-IDF 开发教程文档](DShanMCU-Mio/ESP-IDF/chapter1-1.md)
+- [DShanMCU-Mio(澪) + Micropython 开发教程文档](DShanMCU-Mio/Micropython/chapter1-1.md)
 
 ## MORE TODO...
