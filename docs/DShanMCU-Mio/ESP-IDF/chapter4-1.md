@@ -98,6 +98,10 @@
 
 ![DShanMCU-Mio_esp-idf_chapter4-1_images_015](_images/chapter4_images/DShanMCU-Mio_esp-idf_chapter4-1_images_015.jpg)
 
+如果没有出现这个弹窗，并且按照下面的操作没有出现新的设备(一般是点击下面COM那里没有反应)，此时我们要按照下图这样检查一下，如果没有连接，那么点击连接，如果不确定是哪个选项，可以插拔对比检查看看是哪一个，后面基本都是这个选项：
+
+![DShanMCU-Mio_esp-idf_chapter4-1_images_016](_images/chapter4_images/DShanMCU-Mio_esp-idf_chapter4-1_images_016.jpg)
+
 然后，我们按照下图的操作在vscode中选择我们开发板的COM口(这里引用的图片是上文windows平台的演示图片正常是 `/dev/ttyACM0` )，每次插拔编号可能会不一样也可能还是一样，当你不确定或者出问题的时候可以多插拔几次看看：
 
 ![DShanMCU-Mio_esp-idf_chapter4-1_images_006](_images/chapter4_images/DShanMCU-Mio_esp-idf_chapter4-1_images_006.jpg)
