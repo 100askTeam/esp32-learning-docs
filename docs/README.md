@@ -13,6 +13,8 @@
 
 ## DShanMCU-Mio(澪)
 
+[【团长打骨折】49.9元薅ESP32S3开发板~DShanMCU-Mio(澪)开发板超值团](https://xua.xet.tech/s/2JU8Nu)：[https://xua.xet.tech/s/2JU8Nu](https://xua.xet.tech/s/2JU8Nu)
+
 [DShanMCU-Mio(澪) 开发板展示视频](https://www.bilibili.com/video/BV1Va411g7aY)
 
 - [DShanMCU-Mio(澪) + Arduino 开发教程文档](DShanMCU-Mio/Arduino/chapter1-1.md)
