@@ -120,7 +120,7 @@ C:\Users\smile\AppData\Local\Arduino15
 
 然后会弹出一个页面，我们选择 `“浏览计算机查找驱动”`：
 
-驱动的路径选择： `DShan-ESP-S3_Arduino学习资料\03_开发工具\`，点击 `“确定”` 后就会安装驱动。
+驱动的路径选择： `DShanMCU-Mio_Arduino_Data\03_开发工具\`，点击 `“确定”` 后就会安装驱动。
 
 
 驱动安装完成之后，再检查 **设备管理器** 中是否有串口(COM)号。
@@ -128,61 +128,7 @@ C:\Users\smile\AppData\Local\Arduino15
 > 资料中的驱动是压缩包，我们要先解压这个压缩包再选择驱动，这里略过解压操作教程。
 
 
-### 烧写程序
-
-按照上面小节的操作，我们的驱动没有问题可以使用之后，我们就可以在 Arduino IDE 中和我们手上的 DShan-ESP-S3 进行交互了，我们先来烧写一个程序。
-
-#### 打开示例工程
-
-首先，我们打开资料中的示例代码： 
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_011](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_011.jpg)
-
-
-#### 配置
-
-然后，按照下图在 Arduino IDE 进行一些配置：
-
-1. 选择在 `Tools->Board->ESP32 Arduino(inSketchbook)` 中选择 `ESP32S3 Dev Module`
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_012](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_012.jpg)
-
-2. 然后在 `Tools->Port` 中选择中选择你的板子的串口(COM)号：
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_013](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_013.jpg)
-
-这样我们在 Arduino IDE中就能看到我们刚才的选择： 
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_014](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_014.jpg)
-
-3. 我们再进行一些细节配置，按照上面两步操作之后我们能看到菜单栏中 `Tools` 选项多出来了很多选项，大部分选项我们保持默认选择，我们只需要配置下面这几个即可：
-
-根据自己板子的配置选择对应的 **Flash Size**，DShan-ESP-S3 提供这三种配置的选购：
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_015](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_015.jpg)
-
-
-`PSRAM` 默认是 *Disabled* 我们选择为 `OPI PSRAM`
-![DShanMCU-Mio_Arduino_chapter2-2_images_016](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_016.jpg)
-
-#### 编译烧写
-
-最后，我们点击烧录按钮，等待编译并烧写完成：
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_017](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_017.jpg)
-
-> 点击上图指示的按钮是 **编译+烧写** 也就是说在编译通过之后会直接烧写。你也可以分开两步进行：上图指示按钮的左边是一个 `√` 勾勾的按钮，点击这个是编译验证，但是不会执行烧写操作，验证通过之后再点击上图指示的按钮进行烧写。
-
-
-#### 打开串口监视器查看运行现象
-
-编译并烧写完成之后，我们点击右上角的 **串口监视器** 查看串口输出的内容：
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_018](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_018.jpg)
-
-可以看到串口监视器每隔 1s 会输出一次信息：
-
-![DShanMCU-Mio_Arduino_chapter2-2_images_019](_images/chapter2_images/DShanMCU-Mio_Arduino_chapter2-2_images_019.jpg)
+我们的驱动没有问题可以使用之后，我们就可以在 Arduino IDE 中和我们手上的 DShanMCU-Mio 进行交互(开发)了！
 
 
 至此，我们的开发环境就完全搭建好了，接下来的章节中我们开始进行更多的实验、学习更多的内容吧！

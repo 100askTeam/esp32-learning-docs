@@ -18,7 +18,9 @@
   - [C语言快速入门](DShanMCU-Mio/Arduino/chapter3-1.md)
   - [C++语言快速入门](DShanMCU-Mio/Arduino/chapter3-2.md)
 
-- [第四章 基础实验]()
+- 第四章 基础实验
+
+  - [运行第一个程序(Hello world!)](DShanMCU-Mio/Arduino/chapter4-1.md)
 
 - [第五章 基础实验进阶]()
 
