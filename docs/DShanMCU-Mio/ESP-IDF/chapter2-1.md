@@ -27,5 +27,8 @@
 | esp-idf-components | [https://github.com/100askTeam/esp-idf-components](https://github.com/100askTeam/esp-idf-components) | ESP-IDF 平台的学习资料包的组件作为[esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) 的子模块，也可以单独在自己的项目中使用！ |
 | esp-micropython-learn | TODO | MicroPython 平台学习资料包 |
 
-> 注意！我们存放学习资料的路径不要有有中文及中文字符和其他特殊字符，建议路径全都是英文+阿拉伯数字+英文标点符号(其中不要使用英文符号`(` 和 `)` )。 否则会出现一些意想不到的问题，这都是不必要可以提前避免的问题。
+> 注意1：我们存放学习资料的路径不要有有中文及中文字符和其他特殊字符，建议路径全都是英文+阿拉伯数字+英文标点符号(其中不要使用英文符号`(` 和 `)` )。 否则会出现一些意想不到的问题，这都是不必要并且可以提前避免的问题。
 
+> 注意2：如果使用的是 windows 系统，要注意路径长度问题。在编译某些工程可能会编译不过，这时候首先考虑是否路径过长导致的，建议将整个资料包移动到磁盘根目录之后，清除(Full Clean)之后再重新编译。
+
+> 注意3：在云盘下载的压缩包是一个git仓库，建议新建一个分支，或者拷贝一份用以备份，也就是一个用来同步最新的资料，一个用来学习使用。关于git的使用教程，请参阅：1. 文档教程[http://download.100ask.org/tools/Software/git/how_to_use_git.html](http://download.100ask.org/tools/Software/git/how_to_use_git.html)。 2.视频教程：[https://www.bilibili.com/video/BV1CL4y1A7YG](https://www.bilibili.com/video/BV1CL4y1A7YG)
