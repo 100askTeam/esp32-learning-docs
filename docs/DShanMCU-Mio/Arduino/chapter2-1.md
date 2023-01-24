@@ -27,3 +27,5 @@
 | esp-idf-components | [https://github.com/100askTeam/esp-idf-components](https://github.com/100askTeam/esp-idf-components) | ESP-IDF 平台的学习资料包的组件作为[esp-idf-learn](https://github.com/100askTeam/esp-idf-learn) 的子模块，也可以单独在自己的项目中使用！ |
 | esp-micropython-learn | TODO | MicroPython 平台学习资料包 |
 
+
+> 注意：在云盘下载的压缩包是一个git仓库，建议新建一个分支，或者拷贝一份用以备份，也就是一个用来同步最新的资料，一个用来学习使用。关于git的使用教程，请参阅：1. 文档教程[http://download.100ask.org/tools/Software/git/how_to_use_git.html](http://download.100ask.org/tools/Software/git/how_to_use_git.html)。 2.视频教程：[https://www.bilibili.com/video/BV1CL4y1A7YG](https://www.bilibili.com/video/BV1CL4y1A7YG)
