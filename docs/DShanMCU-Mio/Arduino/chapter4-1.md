@@ -4,6 +4,8 @@
 
 > 我们存放学习资料的路径不要有中文及中文字符和其他特殊字符，建议路径全都是英文+阿拉伯数字+英文标点符号(其中不要使用英文符号`(` 和 `)` )。 否则会出现一些意想不到的问题，这都是不必要可以提前避免的问题。
 
+> 如果使用的是 windows 系统，要注意路径长度问题。在编译某些工程可能会编译不过，这时候首先考虑是否路径过长导致的，建议将整个资料包移动到磁盘根目录之后，清除(Full Clean)之后再重新编译。
+
 ## Windows平台
 
 笔者在 windows 系统中，将资料存放在了 `D:\100ask\esp32` ，路径中没有中文及中文字符和其他特殊字符以及符号`(` 和 `)`：
@@ -45,6 +47,7 @@
 
 
 `PSRAM` 默认是 *Disabled* 我们选择为 `OPI PSRAM`
+
 ![DShanMCU-Mio_Arduino_chapter4-1_images_008](_images/chapter4_images/DShanMCU-Mio_Arduino_chapter4-1_images_008.jpg)
 
 #### 编译烧写
