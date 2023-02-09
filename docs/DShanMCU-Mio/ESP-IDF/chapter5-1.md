@@ -37,7 +37,7 @@ A->B->SELECT->START->UP->DOWN->LEFT->RIGHT.
 
 ## 软件准备
 
-本次实验的项目代码位于： `./DShanMCU-Mio/esp-idf-learn/03_controller/fc_joypad` 。
+本次实验的项目代码位于： `DShanMCU-Mio_ESP-IDF_Data/02_examples/esp-idf-learn/03_controller/fc_joypad` 。
 
 > 注意，不要将项目代码移动到其他地方，否则编译会报错。后续实验也请保持原有的目录结构进行学习，不要移动项目代码的位置。
 
