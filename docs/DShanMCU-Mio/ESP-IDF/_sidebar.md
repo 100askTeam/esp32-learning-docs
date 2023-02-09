@@ -30,3 +30,4 @@
 - 第六章 显示实验
 
   - [3.5寸LCD屏幕(SPI、无触摸)](DShanMCU-Mio/ESP-IDF/chapter6-1.md)
+  - [3.52寸墨水屏(SPI、无触摸)](DShanMCU-Mio/ESP-IDF/chapter6-2.md)
