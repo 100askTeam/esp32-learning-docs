@@ -14,7 +14,7 @@ DShanMCU-Mio没有板载LED灯，所以我们需要将LED灯的正极(较长的�
 
 ## 软件准备
 
-本次实验的项目代码位于： `./DShanMCU-Mio/esp-idf-learn/01_base/02_blink` 。
+本次实验的项目代码位于： `DShanMCU-Mio_ESP-IDF_Data/02_examples/esp-idf-learn/01_base/02_blink` 。
 
 > 注意，不要将项目代码移动到其他地方，否则后续可能会出现编译报错的问题。后续实验也请保持原有的目录结构进行学习，不要移动项目代码的位置。
 
