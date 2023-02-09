@@ -8,7 +8,15 @@
 - [FC游戏机手柄](https://item.taobao.com/item.htm?id=683875901407)    * 1
 - [Micro USB模块](https://item.taobao.com/item.htm?id=683875901407)  * 1
 
-接线：
+FC手柄有10个按键（实际上只有8个）：
+
+上、下、左、右、Start、Select、A、B、A连发、B连发。
+
+A和A连发是一个键值，而B和B连发也是一个键值，只是连发按键当你一直按下的时候，会不停的发送（方便快速按键，比如发炮弹之类的功能）。
+
+FC手柄的控制电路，由1个8位并入串出的移位寄存器，外加一个时基集成电路（用于连发）构成。读取手柄按键值的信息十分简单：先Latch（锁存键值），然后就得到了第一个按键值（A，下降沿采集），之后在7个Clock的作用下，依次读取其他按键的键值，总共8个按键键值。
+
+### 接线
 
 | Micro USB引脚 | FC游戏机手柄芯片引脚 | Mio 引脚 |
 | :--- | :--- | :--- |
@@ -17,6 +25,14 @@
 | ID | CLOCK | 40 |
 | D+ | LATCH | 41 |
 | D- | DATA | 42 |
+
+
+### FC游戏机手柄时序图
+
+每给一个脉冲，就输出一位数据(按下是1，松开是0.)，输出顺序:
+A->B->SELECT->START->UP->DOWN->LEFT->RIGHT.
+
+![DShanMCU-Mio_esp-idf_chapter5-1_images_001](_images/chapter5_images/DShanMCU-Mio_esp-idf_chapter5-1_images_001.jpg)
 
 
 ## 软件准备
