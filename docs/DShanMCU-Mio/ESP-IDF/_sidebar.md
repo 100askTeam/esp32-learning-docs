@@ -26,3 +26,7 @@
 - 第五章 控制类实验
 
   - [FC游戏机手柄](DShanMCU-Mio/ESP-IDF/chapter5-1.md)
+
+- 第六章 显示实验
+
+  - [3.5寸LCD屏幕(SPI、无触摸)](DShanMCU-Mio/ESP-IDF/chapter6-1.md)
