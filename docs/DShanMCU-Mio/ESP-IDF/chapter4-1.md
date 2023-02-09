@@ -126,3 +126,4 @@
 ![DShanMCU-Mio_esp-idf_chapter4-1_images_011](_images/chapter4_images/DShanMCU-Mio_esp-idf_chapter4-1_images_011.jpg)
 
 
+> 除了在 vscode 中打开串口监视器查看程序输入信息外，也可以通过串口工具打开查看程序运行的输出信息，波特率默认为 115200。注意应该要在退出 vscode 的串口监视器之后，再通过串口工具打开。
