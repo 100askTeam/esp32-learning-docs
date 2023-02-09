@@ -23,3 +23,6 @@
   - [运行第一个程序(Hello world!)](DShanMCU-Mio/ESP-IDF/chapter4-1.md)
   - [点亮LED(BLINK)](DShanMCU-Mio/ESP-IDF/chapter4-2.md)
 
+- 第五章 控制类实验
+
+  - [FC游戏机手柄](DShanMCU-Mio/ESP-IDF/chapter5-1.md)
