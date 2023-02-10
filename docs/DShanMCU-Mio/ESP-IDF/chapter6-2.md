@@ -53,7 +53,7 @@ E-paper display Pin      | SPI pin | DShanMCU-Mio pin     |  Notes
 ```c
 
 // 初始化屏幕
-epd_100ask_init();
+epd_100ask_hal_init();
 
 // 初始化画布
 // 参数1： paint 需要是静态 、全局或动态分配的内存。
@@ -63,10 +63,10 @@ epd_100ask_init();
 epd_100ask_paint_init(paint, color);
 
 // 将整个屏幕刷为指定的颜色
-epd_100ask_display_clear(color);
+epd_100ask_hal_display_clear(color);
 
 // 显示事先经过转换的图片，后面两个参数分别是指定图片的 宽(w) 和 高(h)
-epd_100ask_display_image(gImage_full_screen_test, 240, 360);
+epd_100ask_hal_display_image(gImage_full_screen_test, 240, 360);
 
 /* 刷新屏幕。注意：需要调用此函数才能在屏幕上显示出你要显示的数据
    刷新类型有：
@@ -74,7 +74,7 @@ epd_100ask_display_image(gImage_full_screen_test, 240, 360);
         EPD_100ASK_LUT_DU (局部刷新，长时间用DU波形刷屏会有低影，建议每调用DU波形刷屏5~10次后改用GC波形刷屏)
         EPD_100ASK_LUT_5S (不常用)
 */
-epd_100ask_refresh(EPD_100ASK_LUT_GC);
+epd_100ask_hal_refresh(EPD_100ASK_LUT_GC);
 
 /* 局部刷新
     参数1：指定起始的x轴方向的坐标位置
@@ -84,8 +84,8 @@ epd_100ask_refresh(EPD_100ASK_LUT_GC);
     参数5：图片数据
    之后需要使用 EPD_100ASK_LUT_DU 刷新类型。
 */
-epd_100ask_display_partial(0, y_offset, 32, 96, gImage_number_1);
-epd_100ask_refresh(EPD_100ASK_LUT_DU);  // 想要局部刷新时，使用此刷新类型
+epd_100ask_hal_display_partial(0, y_offset, 32, 96, gImage_number_1);
+epd_100ask_hal_refresh(EPD_100ASK_LUT_DU);  // 想要局部刷新时，使用此刷新类型
 
 
 /*画布部分*/
@@ -106,10 +106,10 @@ epd_100ask_paint_draw_circle(45, 95, 20, EPD_COLOR_BLACK, DOT_PIXEL_1X1, DRAW_FI
 epd_100ask_paint_clear(EPD_100ASK_COLOR_WHITE);
 
 // 将画布的内容传输到屏幕
-epd_100ask_display_image(paint, w, h);
+epd_100ask_hal_display_image(paint, w, h);
 
 // 刷新屏幕
-epd_100ask_refresh();
+epd_100ask_hal_refresh();
 
 ```
 
