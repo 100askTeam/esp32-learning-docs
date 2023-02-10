@@ -31,3 +31,7 @@
 
   - [3.5寸LCD屏幕(SPI、无触摸)](DShanMCU-Mio/ESP-IDF/chapter6-1.md)
   - [3.52寸墨水屏(SPI、无触摸)](DShanMCU-Mio/ESP-IDF/chapter6-2.md)
+
+- 第七章 存储实验
+
+  - [【理论】SD卡知识科普](DShanMCU-Mio/ESP-IDF/chapter7-1.md)
