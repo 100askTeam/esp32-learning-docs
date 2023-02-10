@@ -48,7 +48,7 @@ TFT LCD display Pin      | SPI pin | DShanMCU-Mio pin
 ```c
 
 // 初始化 LCD
-tft_lcd_100ask_drivers_init();
+tft_lcd_100ask_hal_init();
 
 /* 将整个屏幕刷为指定的颜色
    预定义的颜色有：
@@ -58,7 +58,7 @@ tft_lcd_100ask_drivers_init();
         #define TFT_LCD_COLOR_RED       0x07E0
         #define TFT_LCD_COLOR_GREEN     0x001F
 */
-tft_lcd_100ask_clear(color);
+tft_lcd_100ask_hal_clear(color);
 
 ```
 
