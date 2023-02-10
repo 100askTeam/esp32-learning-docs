@@ -35,3 +35,4 @@
 - 第七章 存储实验
 
   - [【理论】SD卡知识科普](DShanMCU-Mio/ESP-IDF/chapter7-1.md)
+  - [Micro SD卡(SPI)](DShanMCU-Mio/ESP-IDF/chapter7-2.md)
