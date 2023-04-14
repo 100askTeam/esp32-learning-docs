@@ -9,7 +9,7 @@
 | 百问网开发板 | 主控芯片/核心板 | 购买链接 |
 | :--- | :--- | :--- |
 | DShanMCU-Mio(澪) | ESP32-S3R8 | [https://item.taobao.com/item.htm?id=683875901407](https://item.taobao.com/item.htm?id=683875901407)
-| Retro-Yao-Mio(爻-澪)开源掌机学习底板 | DShanMCU-Mio(澪) | [https://item.taobao.com/item.htm?&id=694835665452](https://item.taobao.com/item.htm?&id=694835665452)
+| Retro Yao-Mio(爻-澪)开源掌机学习底板 | DShanMCU-Mio(澪) | [https://item.taobao.com/item.htm?&id=694835665452](https://item.taobao.com/item.htm?&id=694835665452)
 
 
 ## DShanMCU-Mio(澪)
@@ -22,7 +22,7 @@
 
 ## 项目实战
 
-- [Retro-Yao-Mio(爻-澪)开源掌机(ESP-IDF)](Retro-Yao-Mio/chapter1-1.md)
+- [Retro Yao-Mio(爻-澪)开源掌机(ESP-IDF)](Retro-Yao-Mio/chapter1-1.md)
 - [LVGL学习教程(基于Retro-Yao-Mio开源掌机学习开发板)]()
 
 ## MORE TODO...
