@@ -6,8 +6,7 @@
   - [Retro Yao-Mio 的注意事项](Retro-Yao-Mio/chapter1-2.md)
   - [Retro Yao-Mio 学习套件](Retro-Yao-Mio/chapter1-3.md)
   - [Retro Yao-Mio 镜像文件的获取与烧写](Retro-Yao-Mio/chapter1-4.md)
-  - [Retro Yao-Mio 的配置与使用](Retro-Yao-Mio/chapter1-5.md)
-  - [获取更多的ROMs](Retro-Yao-Mio/chapter1-6.md)
+  - [retro-go-yao-mio的配置与使用](Retro-Yao-Mio/chapter1-5.md)
 
 - 第二章 ESP-IDF学习篇
 
