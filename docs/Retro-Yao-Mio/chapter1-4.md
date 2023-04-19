@@ -6,7 +6,7 @@
 
 ## 获取 Retro Yao-Mio 镜像文件
 
-有三个地方可以获取到 Retro Yao-Mio 配套的镜像文件：
+有三个地方可以获取到 Retro Yao-Mio 配套的镜像文件(retro-go-yao-mio)：
 
 1. 在资料包中获得，其路径为：`DShanMCU-Mio_ESP-IDF_Data/04_配套固件/retro-go-yao-mio`
 2. 在社区直接下载：[https://forums.100ask.net/t/topic/2991](https://forums.100ask.net/t/topic/2991)

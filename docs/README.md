@@ -23,6 +23,5 @@
 ## 项目实战
 
 - [Retro Yao-Mio(爻-澪)开源掌机(ESP-IDF)](Retro-Yao-Mio/chapter1-1.md)
-- [LVGL学习教程(基于Retro-Yao-Mio开源掌机学习开发板)]()
 
 ## MORE TODO...
