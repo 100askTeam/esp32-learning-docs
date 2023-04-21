@@ -5,4 +5,4 @@
 下面是学习教程：
 
 - [DShanMCU-Mio(澪) + ESP-IDF 入门文档教程](DShanMCU-Mio/ESP-IDF/chapter1-1)
-- DShanMCU-Mio(澪) + ESP-IDF 入门视频教程： TODO
+- DShanMCU-Mio(澪) + ESP-IDF 进阶视频教程： TODO

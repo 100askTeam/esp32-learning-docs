@@ -38,7 +38,7 @@
 
 当点击 `OK` 之后会进入到 flash_download_tool 主界面，这里我们就可以进行烧写了，我们烧写 retro-go-yao-mio 固件的操作步骤如下：
 
-1. 按照下图所示对硬件进行接线，也就是将 USB Type-C 接入DShanMCU-Mio 正面左边的Type-C口：
+1. 按照下图所示对硬件进行接线，也就是将 USB Type-C 接入DShanMCU-Mio 正面右边的Type-C口(正对着串口芯片)：
 
 ![Retro-Yao-Mio_chapter1-4_images_003](_images/chapter1_images/Retro-Yao-Mio_chapter1-4_images_003.jpg)
 
@@ -82,7 +82,7 @@
 
 1. 打开Ubuntu虚拟机，进入到Ubuntu桌面。
 
-2. 按照下图所示对硬件进行接线，也就是将 USB Type-C 接入DShanMCU-Mio 正面左边的Type-C口：
+2. 按照下图所示对硬件进行接线，也就是将 USB Type-C 接入DShanMCU-Mio 正面右边的Type-C口(正对着串口芯片)：
 
 ![Retro-Yao-Mio_chapter1-4_images_003](_images/chapter1_images/Retro-Yao-Mio_chapter1-4_images_003.jpg)
 

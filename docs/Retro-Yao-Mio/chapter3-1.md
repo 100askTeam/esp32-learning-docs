@@ -6,5 +6,5 @@ Retro Yao-Mio 开发套件包括：Retro Yao-Mio 底板的所有硬件资源+DSh
 
 下面是配套的视频教程： 
 
-- LVGL移植教程：TODO
+- Retro Yao-Mio + LVGL移植教程：TODO
 - LVGL学习教程：TODO

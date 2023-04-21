@@ -13,7 +13,7 @@
   - [ESP-IDF学习教程](Retro-Yao-Mio/chapter2-1.md)
   - [retro-go-yao-mio源码的获取、编译、烧写](Retro-Yao-Mio/chapter2-2.md)
 
-- 第二篇 LVGL学习篇
+- 第三篇 LVGL学习篇
 
   - [教程说明](Retro-Yao-Mio/chapter3-1.md)
   - [LVGL移植教程之走进LVGL](Retro-Yao-Mio/chapter3-2.md)
