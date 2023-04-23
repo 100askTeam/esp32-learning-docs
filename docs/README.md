@@ -22,6 +22,6 @@
 
 ## 项目实战
 
-- [Retro Yao-Mio(爻-澪)开源掌机(ESP-IDF)](Retro-Yao-Mio/chapter1-1.md)
+- [Retro Yao-Mio(爻-澪)开源掌机(ESP-IDF)](/Retro-Yao-Mio/)
 
 ## MORE TODO...
