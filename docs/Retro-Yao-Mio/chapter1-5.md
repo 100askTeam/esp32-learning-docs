@@ -6,6 +6,35 @@
 
 retro-go-yao-mio 当前还不支持中文及中文界面。
 
+## WiFi配置
+
+要使用wifi，需要在sd卡的文件系统中创建一个名为 `/retur-go/config/wii.json` 的配置文件。其内容填写WiFi热点信息，如下所示：
+
+{
+  "ssid": "my-network",
+  "password": "my-password"
+}
+
+Multiple networks can be defined using the following format (then selectable in the Options menu):
+支持多个WiFi配置，像下面填写每个WiFi热点的连接信息，然后再**选项(option)**菜单中可以选择要连接的WiFi热点：
+
+{
+  "ssid0": "my-network",
+  "password0": "my-password",
+  "ssid1": "my-network",
+  "password1": "my-password",
+  "ssid2": "my-network",
+  "password2": "my-password"
+}
+
+### 时间同步
+
+成功连接到网络后，**启动器(launcher)**会立即进行时间同步。这是通过NTP（`pool.ntp.org`）完成的，目前无法禁用。时区可以在**启动器(launcher)**的**选项(option)**菜单中进行配置。
+
+### 网络文件管理器
+
+成功连接到网络后，你可以在 `MENU` 唤出的菜单中的 `About` 选项中获取当前设备的IP。然后在电脑上的浏览器的地址栏中访问 **http://192.168.x.x/** 就可以访问你手中 Retro Yao-Mio 的文件系统并进行文件管理。
+
 ## 主题
 
 retro-go-yao-mio 支持主题切换，主题文件保存在SD卡的这个目录： `/retro-go/themes`
