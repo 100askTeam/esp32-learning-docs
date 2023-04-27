@@ -1,13 +1,13 @@
 # Retro Yao-Mio 是什么？
 
-[Retro Yao-Mio](https://item.taobao.com/item.htm?&id=694835665452) 是一款开源掌机学习套件。
+[Retro Yao-Mio](https://item.taobao.com/item.htm?&id=694835665452) 是一款开源掌机学习套件(软件开源，学习视频资料免费，硬件只公开原理图)。
 
 - 其硬件部分由 [DShanMCU-Mio(澪)](https://item.taobao.com/item.htm?id=683875901407) + [Retro Yao-Mio](https://item.taobao.com/item.htm?&id=694835665452) 学习底板 + [DShan_Display module SPI-TFT](https://item.taobao.com/item.htm?&id=694835665452)（3.5寸SPI无触摸TFT-LCD屏） 组成。
 - 其软件部分由百问网团队基于开源项目 [retro-go](https://github.com/ducalex/retro-go)（[GPL-2.0 license](https://github.com/ducalex/retro-go/blob/master/COPYING)）进行二次开发定制的 [retro-go-yao-mio](https://github.com/100askTeam/retro-go-yao-mio) 项目。
 
 !> [retro-go-yao-mio](https://github.com/100askTeam/retro-go-yao-mio) 是为 Retro Yao-Mio 开发套件而生，其基于开源项目 [retro-go](https://github.com/ducalex/retro-go) 进行二次开发定制。也就是 Retro Yao-Mio 是开发套件(硬件)而 retro-go-yao-mio 是为其量身定制的软件项目。这在后文不再特别强调说明。
 
-!> Retro-Yao-Mio是一个学习套件，我们(深圳百问网科技有限公司)对其所提供的一切软硬件资源仅限于用于学习交流用途，请勿用作其他用途。如果你将其用于其他用途而造成的任何问题与损失，后果自负、责任自负，我们(深圳百问网科技有限公司)不承担任何后果与法律责任。
+!> Retro-Yao-Mio是一个学习套件(软件开源，学习视频资料免费，硬件只公开原理图)，我们(深圳百问网科技有限公司)对其所提供的一切软硬件资源仅限于用于学习交流用途，请勿用作其他用途。如果你将其用于其他用途而造成的任何问题与损失，后果自负、责任自负，我们(深圳百问网科技有限公司)不承担任何后果与法律责任。
 
 ## retro-go-yao-mio 支持的模拟器
 
