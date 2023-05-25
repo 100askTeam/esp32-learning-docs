@@ -2,13 +2,13 @@
 
 Retro-Yao-Mio是一个学习套件，我们(深圳百问网科技有限公司)对其所提供的一切软硬件资源仅限于用于学习交流用途，请勿用作其他用途。如果你将其用于其他用途而造成的任何问题与损失，后果自负、责任自负，我们(深圳百问网科技有限公司)不承担任何后果与法律责任。
 
-## 使用注意实现
+## 使用注意事项
 
 - Retro Yao-Mio 相关的文档、视频教程都是免费公开的，如果你在学习过程中遇到问题请前往[百问网技术交流社区](https://forums.100ask.net/c/esp/49)发贴留言求助，超出Retro Yao-Mio硬件范围以及教程范围的问题我们不承诺都能百分百都能解给出答案或建议。
 - Retro Yao-Mio 底板目前只支持插入 DShanMCU-Mio 开发板，请勿使用其他开发板，否则由此造成的后果自负。
 - 只有 Retro Yao-Mio 底板上的 Type-C 接口能给接在 Retro Yao-Mio 底板上电池充电，DShanMCU-Mio上的 Type-C 接口不能为电池充电。
 - 请不要边充电边使用。
-- 在给电池充电时，DShanMCU-Mio上的 Type-C 接口需要断开。也就是 Retro Yao-Mio 底板上和DShanMCU-Mio 上的 Type-C 接口不能同时接上并通电。
+- 在给电池充电时，DShanMCU-Mio(核心板)上的 Type-C 接口需要断开。也就是 Retro Yao-Mio 底板上和DShanMCU-Mio 上的 Type-C 接口不能同时接上并通电。
 - Retro Yao-Mio 整机不防水、防摔，即使有外壳也不防水、防摔，请注意防水、防潮、防摔。
 - 在给 Retro Yao-Mio 充电时，其正面右下角的背面有微微发烫，属于正常现象。
 - 当WiFi或蓝牙的信号非常弱时，请检查 DShanMCU-Mio 是否已经接上天线。
